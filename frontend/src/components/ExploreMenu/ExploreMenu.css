@@ -21,11 +21,17 @@
     gap: 30px;
     text-align: center;
     margin: 20px 0px;
+    padding: 1rem;
     overflow: scroll;
 }
 
 .explore-menu-list::-webkit-scrollbar{
     display: none;
+}
+
+.explore-menu-list-item:hover img{
+    transform: scale(1.05);
+    transition: 0.2s;
 }
 
 .explore-menu-list-item img{
